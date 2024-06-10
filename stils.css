@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+}
+
+#menu-section {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#order-section {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+#chat-section {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item p {
+    margin-bottom: 5px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+}
